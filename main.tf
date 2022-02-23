@@ -32,7 +32,7 @@ variable "tags" {
   default     = {}
 }
 
-# ------------------------------------------------
+# --------------------------------------------------
 # CREATE THE S3 WEBSITE BUCKET AND ATTACH A POLICY
 # ------------------------------------------------
 resource "aws_s3_bucket" "website" {
